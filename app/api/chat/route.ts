@@ -1,7 +1,6 @@
+export const runtime = 'edge'; 
 import { google } from '@ai-sdk/google';
 import { streamText, UIMessage, convertToModelMessages } from 'ai';
-import type { GoogleGenerativeAIProviderMetadata } from '@ai-sdk/google';
-
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
 
